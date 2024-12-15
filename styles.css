@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 930px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 786px;
+}
+
+.image-section {
+    height: 630px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 44.452px;
+    width: 1258px;
+}
+
+.first-section {
+    display: flex;
+    width: 1137px;
+    padding: 40px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    background-color: #EBF8FE;
+}
+
+.first-section h1 {
+    color: #181D27;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -1.28px;
+    font-family: "Inter", sans-serif;
+}
+
+.first-section-p {
+    color: #535862;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 44px;
+    width: 1073px;
+    letter-spacing: 1.1px;
+}
+
+.first-section-input {
+    width: 488px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+}
+ 
+.first-input-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first-input-text input {
+    width: 100%;
+    padding: 15px 14px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+.first-input-text p {
+    color: #535862;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: 345px;
+}
+
+.first-input-text p span {
+    text-decoration: underline;
+}
+
+.first-input-text input::placeholder {
+    color: #717680;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.first-button {
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: #007CB8;
+    width: 120px; 
+}
+
+.button {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.second-section {
+    border-radius: 24px;
+    background: #EBF8FE;
+    display: flex;
+    width: 546px;
+    padding: 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.second-section h4 {
+    color: #181D27;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+
+form, 
+#full-name::placeholder, 
+#email::placeholder  {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 482px;
+    color: #6D5F8B;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.darkened {
+    color: #1B003D;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: -16px;
+}
+
+.radio-group , 
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #6D5F8B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 10px; 
+}
+
+#full-name, #email {
+    display: flex;
+    padding:16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1.5px solid #380054;
+    width: 100%;
+}
+
